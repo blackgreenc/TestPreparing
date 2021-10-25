@@ -26,9 +26,37 @@ class Car{
 */
 
 
+
+//클래스 선언과 파일
+//-보통 소스 파일마다 하나의 클래스를 선언하지만, 2개 이상의 클래스를 하나의 파일로 선언가능
+//-하나의 파일에 클래스가 둘 이상 있다면 하나만 public으로 선언할 수 있고, 해당 클래스 이름은 소스 파일 이름과 동일해야 함
+/*
+public class Ball{ }
+class Cylinder{ }
+*/
+
+
+//인스턴스 생성과 사용
+//1, 인스턴스 선언 방법
+/*
+클래스이름 변수;
+변수 = new클래스이름()
+
+따로 선언
+Car car1;
+car1 = new Car();
+
+한 번에 선언
+Car car1 = new Car();
+
+-멤버변수(필드)는 따로 
+*/
+
+
+
+
 class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
-
   }
 }
