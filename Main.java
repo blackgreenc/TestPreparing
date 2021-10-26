@@ -59,8 +59,19 @@ Car car1 = new Car();
 */
 
 
+
 class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
   }
+}
+/*
+*/
+
+class Person{
+    String name;
+    int height;
+    double weight;
+    char gender;
+    boolean married;
 }
