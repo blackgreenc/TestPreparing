@@ -1,7 +1,7 @@
 class Main {
     public static void main(String[] args) {
+        printGreeting("선의");
         add(2, 3);
-
     }
 
     public static int add(int n1, int n2){
@@ -9,6 +9,10 @@ class Main {
         result = n1 + n2;
         System.out.println(result);
         return result;
+    }
+    public static void printGreeting(String name){
+        System.out.println(name +"님 안녕하세요");
+        return;
     }
 }
 //함수 
